@@ -1,0 +1,377 @@
+﻿
+body {
+    direction: rtl;
+}
+
+header {
+    position: fixed;
+    z-index:+1;
+}
+
+#navi {
+    position: relative;
+    bottom:100px;
+    right:350px;
+    background-color: black;
+    border-radius: 8px;
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+#navi:hover {
+        background-color: white;
+        color: black;
+        border: solid;
+        border-color:black;
+    }
+
+li {
+        display: inline;
+    }
+
+#logo {
+    width: 150px; 
+}
+
+#cart {
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    right:1400px;
+}
+
+#cart:hover {
+        transform: scale(1.2);
+    }
+
+#main {
+    width: 1536px;
+    position: relative;
+    bottom:80px;
+    top:110px;
+    z-index:-1;
+  
+}
+
+#main-text {
+font-size:40px;
+text-align:center;
+font-family: Calibri;
+position:relative;
+top:120px;
+}
+
+#main-button {
+    position:relative;
+    right:700px;
+    background-color: black;
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-family:Calibri;
+}
+
+    #main-button:hover {
+        background-color: white;
+        color: black;
+        border: solid;
+        border-color: black;
+        margin: auto;
+        transform: scale(1.5);
+    }
+
+#stone1 {
+        width: 110px;
+        position:relative;
+        top:80px;
+        right:100px;
+    }
+
+#stone2 {
+    width: 140px;
+    position: relative;
+    top: 70px;
+    right: 900px;
+}
+
+#main-h {
+    font-size: 50px;
+    position: relative;
+    text-align:center;
+    top:130px;
+}
+
+#hand-img {
+    width: 800px;
+    position: relative;
+    right:719px;
+    bottom:50px;
+    top:10px;
+   
+}
+#side-img {
+    transform: rotate(90deg);
+    width: 1000px;
+    position:relative;
+    left:380px;
+    bottom:370px;
+}
+
+#side-img-stones {
+    transform: rotate(90deg);
+    width: 1000px;
+    position: relative;
+    left:370px;
+    top:300px;
+}
+
+#contact {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+#send {
+    background-color: black;
+    border-radius: 8px;
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+    #send:hover {
+        background-color: white;
+        color: black;
+        border: solid;
+        border-color: black;
+    }
+
+#stones {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    background-color: gainsboro;
+    z-index:-1;
+    bottom:100px;
+}
+
+#store-link {
+    background-color: black;
+    border-radius: 16px;
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Calibri;
+    position:relative;
+    right:200px;
+    top:70px;
+}
+
+    #store-link:hover {
+        background-color: white;
+        color: black;
+        border: solid;
+        border-color: black;
+    }
+
+h2 {
+    font-family: Calibri;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+}
+#map {
+    font-family: Calibri;
+    font-size: 30px;
+    position: relative;
+    bottom: 700px;
+    right: 400px;
+    width: 600px;
+    border: 1px solid;
+    color: black;
+background-color: gainsboro;
+padding:10px;
+}
+
+#side-img-r {
+    transform: rotate(90deg);
+    width: 1000px;
+    position: relative;
+    bottom: 600px;
+    right:903px;
+}
+ #side-nav {
+font-family:Calibri;
+font-size:20px;
+color:black;
+position:relative;
+top: 130px;
+right:300px;
+width:20%;
+ }
+
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    position: relative;
+    width: 500px;
+    right: 520px;
+    bottom:180px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position:relative;
+    top:200px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+
+#side-nav-stones {
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 170px;
+    right: 300px;
+    width: 20%;
+}
+
+#odot {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    background-color: gainsboro;
+    z-index: -1;
+    bottom: 800px;
+}
+
+#logo-hit {
+width: 10%;
+}
+
+    

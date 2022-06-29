@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>DIDI- אבנים</title>
+    <link rel="icon" type="image/x-icon" href="תמונות/favicon.png" />
+    <meta name="description" content="gemstones guide page" />
+    <meta name="keywords" content="gemstones, guide, gallery, kinds, stones" />
+    <meta name="author" content="David.Danino" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <div id="container">
+
+        <header>
+
+            <nav id="global-nav" aria-label="main-nav">
+
+                <ul>
+                    <li><a href="index.html"><img src="תמונות/logo.png" id="logo" alt="לוגו" /></a></li>
+                    <li><a id="navi" href="about.html">אודות</a></li>
+                    <li><a id="navi" href="store.html">חנות</a></li>
+                    <li><a id="navi" href="stones.html">אבנים</a></li>
+                    <li><a id="navi" href="siteMap.html">מפת אתר</a></li>
+                    <li><a id="navi" href="contactUs.html">צור קשר</a></li>
+                    <li><a href=""><img src="תמונות/cart.jpg" id="cart" alt="עגלת קניות" /></a></li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="side-nav-stones">
+            <ol>
+                <li><a href="index.html">דף הבית ></a></li>
+                <li>אבנים</li>
+            </ol>
+        </nav>
+        <h1 id="main-h">- אבנים -</h1>
+        <img src="תמונות/main.jpg" id="side-img-stones" alt="אבנים בתפזורת" />
+        <div id="stones">
+            <b>
+                האתר שלנו מחבר אנשים ואבנים, <br /> <br />
+                אנחנו מאמינים שכל אבן היא שונה ומיוחדת במינה- כמו בני אדם! <br /> <br />
+                כל אבן מביאה איתה את הצבע, היופי, הצורה והתכונות שלה. <br /> <br />
+                תוכלו למצוא אצלנו מחזיקי מפתחות, שרשראות, קישוטים לרכב ועוד.. <br /> <br />
+                האתר נוצר מתוך אהבה לטבע ולצבעוניות האין סופית שיש לו להציע. <br /> <br />
+                הכל במחירים נוחים ועם משלוח עד אליכם! <br /> <br /> <br />
+                <br />
+            </b>
+        </div>
+
+        <h2>האבנים שתמצאו אצלנו בחנות: </h2>
+    </div>
+    <div class="gallery">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="תמונות/ג'ספר.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="תמונות/לברדורייט.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="תמונות/סודלייט.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="תמונות/עין הנמר.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="תמונות/קוורץ.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="תמונות/רוז קוורץ.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="תמונות/ג'ספר.jpg" style="width:100%" onclick="currentSlide(1)" alt="ג'ספר אדומה">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="תמונות/לברדורייט.jpg" style="width:100%" onclick="currentSlide(2)" alt="לברדורייט">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="תמונות/סודלייט.jpg" style="width:100%" onclick="currentSlide(3)" alt="סודלייט">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="תמונות/עין הנמר.jpg" style="width:100%" onclick="currentSlide(4)" alt="עין הנמר">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="תמונות/קוורץ.jpg" style="width:100%" onclick="currentSlide(5)" alt="קוורץ">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="תמונות/רוז קוורץ.jpg" style="width:100%" onclick="currentSlide(6)" alt="רוז קוורץ">
+            </div>
+        </div>
+        <a id="store-link" href="store.html">לחנות</a>
+    </div>
+</body>
+</html>
